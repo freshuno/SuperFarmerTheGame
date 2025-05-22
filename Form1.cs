@@ -20,15 +20,14 @@ namespace SuperFarmerTheGame
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            SuperFarmer.rollTheDice(currentPlayer);
+            checkWin(currentPlayer);
             if (currentPlayer == Player1)
             {
-                SuperFarmer.rollTheDice(currentPlayer);
                 currentPlayer = Player2;
             }
             else if (currentPlayer == Player2)
             {
-                SuperFarmer.rollTheDice(currentPlayer);
                 currentPlayer = Player1;
 
             }
@@ -51,6 +50,13 @@ namespace SuperFarmerTheGame
             label8.Text = "Cow: " + Player2.cowNumber.ToString();
             label13.Text = "Current player: " + currentPlayer.name;
         }
+        private void checkWin(Player CurrentPlayer)
+        {
+            if(CurrentPlayer.horseNumber >= 1 && CurrentPlayer.cowNumber >=1 && CurrentPlayer.sheepNumber >=1 && CurrentPlayer.rabbitNumber >= 1)
+            {
+                MessageBox.Show("Wygral: " + currentPlayer.name);
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -58,6 +64,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.sheepNumber--;
                 currentPlayer.rabbitNumber += 6;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -80,6 +87,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.rabbitNumber -= 6;
                 currentPlayer.sheepNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -103,6 +111,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.pigNumber--;
                 currentPlayer.sheepNumber += 2;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -126,6 +135,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.sheepNumber -= 2;
                 currentPlayer.pigNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -149,6 +159,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.cowNumber--;
                 currentPlayer.pigNumber += 3;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -172,6 +183,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.pigNumber -= 3;
                 currentPlayer.cowNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -194,6 +206,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.horseNumber--;
                 currentPlayer.cowNumber += 2;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -216,6 +229,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.cowNumber -= 2;
                 currentPlayer.horseNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -238,6 +252,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.smallDogNumber--;
                 currentPlayer.sheepNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -260,6 +275,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.sheepNumber--;
                 currentPlayer.smallDogNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -282,6 +298,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.bigDogNumber--;
                 currentPlayer.cowNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
@@ -304,6 +321,7 @@ namespace SuperFarmerTheGame
             {
                 currentPlayer.cowNumber--;
                 currentPlayer.bigDogNumber++;
+                checkWin(currentPlayer);
                 if (currentPlayer == Player1)
                 {
                     currentPlayer = Player2;
