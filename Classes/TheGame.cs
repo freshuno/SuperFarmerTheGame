@@ -29,8 +29,8 @@ namespace SuperFarmerTheGame.Classes
         public void rollTheDice(Player CurrentPlayer)
         {
             Random rnd = new Random();
-            dice1 = rnd.Next(1, 12);
-            dice2 = rnd.Next(1, 12);
+            dice1 = rnd.Next(1, 13);
+            dice2 = rnd.Next(1, 13);
             if(dice1 == 10 && dice2 > 8 && dice2 < 11)
             {
                 CurrentPlayer.pigNumber += 1;
@@ -82,6 +82,31 @@ namespace SuperFarmerTheGame.Classes
                 float fullPairsFloat = (CurrentPlayer.horseNumber + 1) / 2;
                 int fullPairs = (int)fullPairsFloat;
                 CurrentPlayer.horseNumber += fullPairs;
+            }
+            //wolf and fox
+            if(dice1 == 12)
+            {
+                if(CurrentPlayer.bigDogNumber == 0)
+                {
+                    CurrentPlayer.cowNumber = 0;
+                    CurrentPlayer.pigNumber = 0;
+                    CurrentPlayer.sheepNumber = 0;
+                }
+                else
+                {
+                    CurrentPlayer.bigDogNumber--;
+                }
+            }
+            if (dice2 == 12)
+            {
+                if (CurrentPlayer.smallDogNumber == 0)
+                {
+                    CurrentPlayer.rabbitNumber = 1;
+                }
+                else
+                {
+                    CurrentPlayer.smallDogNumber--;
+                }
             }
 
         }
