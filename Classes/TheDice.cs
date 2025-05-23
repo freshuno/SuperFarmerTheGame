@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SuperFarmerTheGame.Classes
 {
-    internal class TheGame
+    internal class TheDice
     {
         Player player1;
         Player player2;
@@ -14,14 +14,14 @@ namespace SuperFarmerTheGame.Classes
         Player player4;
         public int dice1;
         public int dice2;
-        public TheGame(Player Player1, Player Player2, Player Player3, Player Player4)
+        public TheDice(Player Player1, Player Player2, Player Player3, Player Player4)
         {
             player1 = Player1;
             player2 = Player2;
             player3 = Player3;
             player4 = Player4;
         }
-        public void rollTheDice(Player CurrentPlayer)
+        public void RollTheDice(Player CurrentPlayer)
         {
             Random rnd = new Random();
             dice1 = rnd.Next(1, 13);

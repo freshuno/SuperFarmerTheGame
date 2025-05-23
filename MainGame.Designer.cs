@@ -28,351 +28,352 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            panel1 = new Panel();
-            label34 = new Label();
-            label33 = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainGame));
+            RollTheDiceButton = new Button();
+            Player1SheepLabel = new Label();
+            Player1PigLabel = new Label();
+            Player1HorseLabel = new Label();
+            Player1RabbitLabel = new Label();
+            Dice1Label = new Label();
+            Dice2Label = new Label();
+            Player1CowLabel = new Label();
+            Player2CowLabel = new Label();
+            Player2RabbitLabel = new Label();
+            Player2HorseLabel = new Label();
+            Player2PigLabel = new Label();
+            Player2SheepLabel = new Label();
+            CurrentPlayerLabel = new Label();
+            TradeInfoLabel = new Label();
+            a1button = new Button();
+            b1button = new Button();
+            a2button = new Button();
+            b2button = new Button();
+            a3button = new Button();
+            b3button = new Button();
+            a4button = new Button();
+            b4button = new Button();
+            a5button = new Button();
+            b5button = new Button();
+            a6button = new Button();
+            b6button = new Button();
+            Player3Panel = new Panel();
+            Player3BigDogLabel = new Label();
+            Player3SmallDogLabel = new Label();
             label17 = new Label();
-            label18 = new Label();
-            label22 = new Label();
-            label19 = new Label();
-            label21 = new Label();
-            label20 = new Label();
-            panel2 = new Panel();
-            label36 = new Label();
-            label35 = new Label();
+            Player3CowLabel = new Label();
+            Player3SheepLabel = new Label();
+            Player3RabbitLabel = new Label();
+            Player3PigLabel = new Label();
+            Player3HorseLabel = new Label();
+            Player4Panel = new Panel();
+            Player4BigDogLabel = new Label();
+            Player4SmallDogLabel = new Label();
             label23 = new Label();
-            label24 = new Label();
-            label28 = new Label();
-            label25 = new Label();
-            label27 = new Label();
-            label26 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label29 = new Label();
-            label30 = new Label();
-            label31 = new Label();
-            label32 = new Label();
-            label37 = new Label();
-            label38 = new Label();
+            Player4CowLabel = new Label();
+            Player4SheepLabel = new Label();
+            Player4RabbitLabel = new Label();
+            Player4PigLabel = new Label();
+            Player4HorseLabel = new Label();
+            Player1NameLabel = new Label();
+            Player2NameLabel = new Label();
+            Player1SmallDogLabel = new Label();
+            Player1BigDogLabel = new Label();
+            Player2SmallDogLabel = new Label();
+            Player2BigDogLabel = new Label();
+            Dice1InfoLabel = new Label();
+            Dice2InfoLabel = new Label();
             label39 = new Label();
-            panel1.SuspendLayout();
-            panel2.SuspendLayout();
+            Player3Panel.SuspendLayout();
+            Player4Panel.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // RollTheDiceButton
             // 
-            button1.Location = new Point(337, 133);
-            button1.Name = "button1";
-            button1.Size = new Size(103, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Rzuć kostką";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            RollTheDiceButton.Location = new Point(337, 133);
+            RollTheDiceButton.Name = "RollTheDiceButton";
+            RollTheDiceButton.Size = new Size(103, 23);
+            RollTheDiceButton.TabIndex = 0;
+            RollTheDiceButton.Text = "Rzuć kostką";
+            RollTheDiceButton.UseVisualStyleBackColor = true;
+            RollTheDiceButton.Click += ClickRoll;
             // 
-            // label1
+            // Player1SheepLabel
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(40, 33);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            Player1SheepLabel.AutoSize = true;
+            Player1SheepLabel.Location = new Point(40, 33);
+            Player1SheepLabel.Name = "Player1SheepLabel";
+            Player1SheepLabel.Size = new Size(38, 15);
+            Player1SheepLabel.TabIndex = 1;
+            Player1SheepLabel.Text = "label1";
             // 
-            // label2
+            // Player1PigLabel
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(40, 48);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 2;
-            label2.Text = "label2";
+            Player1PigLabel.AutoSize = true;
+            Player1PigLabel.Location = new Point(40, 48);
+            Player1PigLabel.Name = "Player1PigLabel";
+            Player1PigLabel.Size = new Size(38, 15);
+            Player1PigLabel.TabIndex = 2;
+            Player1PigLabel.Text = "label2";
             // 
-            // label3
+            // Player1HorseLabel
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(40, 63);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 15);
-            label3.TabIndex = 3;
-            label3.Text = "label3";
+            Player1HorseLabel.AutoSize = true;
+            Player1HorseLabel.Location = new Point(40, 63);
+            Player1HorseLabel.Name = "Player1HorseLabel";
+            Player1HorseLabel.Size = new Size(38, 15);
+            Player1HorseLabel.TabIndex = 3;
+            Player1HorseLabel.Text = "label3";
             // 
-            // label4
+            // Player1RabbitLabel
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(40, 78);
-            label4.Name = "label4";
-            label4.Size = new Size(38, 15);
-            label4.TabIndex = 4;
-            label4.Text = "label4";
+            Player1RabbitLabel.AutoSize = true;
+            Player1RabbitLabel.Location = new Point(40, 78);
+            Player1RabbitLabel.Name = "Player1RabbitLabel";
+            Player1RabbitLabel.Size = new Size(38, 15);
+            Player1RabbitLabel.TabIndex = 4;
+            Player1RabbitLabel.Text = "label4";
             // 
-            // label5
+            // Dice1Label
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(352, 78);
-            label5.Name = "label5";
-            label5.Size = new Size(13, 15);
-            label5.TabIndex = 5;
-            label5.Text = "0";
+            Dice1Label.AutoSize = true;
+            Dice1Label.Location = new Point(352, 78);
+            Dice1Label.Name = "Dice1Label";
+            Dice1Label.Size = new Size(13, 15);
+            Dice1Label.TabIndex = 5;
+            Dice1Label.Text = "0";
             // 
-            // label6
+            // Dice2Label
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(414, 78);
-            label6.Name = "label6";
-            label6.Size = new Size(13, 15);
-            label6.TabIndex = 6;
-            label6.Text = "0";
+            Dice2Label.AutoSize = true;
+            Dice2Label.Location = new Point(414, 78);
+            Dice2Label.Name = "Dice2Label";
+            Dice2Label.Size = new Size(13, 15);
+            Dice2Label.TabIndex = 6;
+            Dice2Label.Text = "0";
             // 
-            // label7
+            // Player1CowLabel
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(40, 93);
-            label7.Name = "label7";
-            label7.Size = new Size(38, 15);
-            label7.TabIndex = 7;
-            label7.Text = "label7";
+            Player1CowLabel.AutoSize = true;
+            Player1CowLabel.Location = new Point(40, 93);
+            Player1CowLabel.Name = "Player1CowLabel";
+            Player1CowLabel.Size = new Size(38, 15);
+            Player1CowLabel.TabIndex = 7;
+            Player1CowLabel.Text = "label7";
             // 
-            // label8
+            // Player2CowLabel
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(682, 93);
-            label8.Name = "label8";
-            label8.Size = new Size(38, 15);
-            label8.TabIndex = 12;
-            label8.Text = "label8";
+            Player2CowLabel.AutoSize = true;
+            Player2CowLabel.Location = new Point(682, 93);
+            Player2CowLabel.Name = "Player2CowLabel";
+            Player2CowLabel.Size = new Size(38, 15);
+            Player2CowLabel.TabIndex = 12;
+            Player2CowLabel.Text = "label8";
             // 
-            // label9
+            // Player2RabbitLabel
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(682, 78);
-            label9.Name = "label9";
-            label9.Size = new Size(38, 15);
-            label9.TabIndex = 11;
-            label9.Text = "label9";
+            Player2RabbitLabel.AutoSize = true;
+            Player2RabbitLabel.Location = new Point(682, 78);
+            Player2RabbitLabel.Name = "Player2RabbitLabel";
+            Player2RabbitLabel.Size = new Size(38, 15);
+            Player2RabbitLabel.TabIndex = 11;
+            Player2RabbitLabel.Text = "label9";
             // 
-            // label10
+            // Player2HorseLabel
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(682, 63);
-            label10.Name = "label10";
-            label10.Size = new Size(44, 15);
-            label10.TabIndex = 10;
-            label10.Text = "label10";
+            Player2HorseLabel.AutoSize = true;
+            Player2HorseLabel.Location = new Point(682, 63);
+            Player2HorseLabel.Name = "Player2HorseLabel";
+            Player2HorseLabel.Size = new Size(44, 15);
+            Player2HorseLabel.TabIndex = 10;
+            Player2HorseLabel.Text = "label10";
             // 
-            // label11
+            // Player2PigLabel
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(682, 48);
-            label11.Name = "label11";
-            label11.Size = new Size(44, 15);
-            label11.TabIndex = 9;
-            label11.Text = "label11";
+            Player2PigLabel.AutoSize = true;
+            Player2PigLabel.Location = new Point(682, 48);
+            Player2PigLabel.Name = "Player2PigLabel";
+            Player2PigLabel.Size = new Size(44, 15);
+            Player2PigLabel.TabIndex = 9;
+            Player2PigLabel.Text = "label11";
             // 
-            // label12
+            // Player2SheepLabel
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(682, 33);
-            label12.Name = "label12";
-            label12.Size = new Size(44, 15);
-            label12.TabIndex = 8;
-            label12.Text = "label12";
+            Player2SheepLabel.AutoSize = true;
+            Player2SheepLabel.Location = new Point(682, 33);
+            Player2SheepLabel.Name = "Player2SheepLabel";
+            Player2SheepLabel.Size = new Size(44, 15);
+            Player2SheepLabel.TabIndex = 8;
+            Player2SheepLabel.Text = "label12";
             // 
-            // label13
+            // CurrentPlayerLabel
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(337, 23);
-            label13.Name = "label13";
-            label13.Size = new Size(44, 15);
-            label13.TabIndex = 13;
-            label13.Text = "label13";
+            CurrentPlayerLabel.AutoSize = true;
+            CurrentPlayerLabel.Location = new Point(337, 23);
+            CurrentPlayerLabel.Name = "CurrentPlayerLabel";
+            CurrentPlayerLabel.Size = new Size(44, 15);
+            CurrentPlayerLabel.TabIndex = 13;
+            CurrentPlayerLabel.Text = "label13";
             // 
-            // label14
+            // TradeInfoLabel
             // 
-            label14.Location = new Point(337, 245);
-            label14.Name = "label14";
-            label14.Size = new Size(192, 177);
-            label14.TabIndex = 14;
-            label14.Text = "1 owca = 6 królików\r\n\r\n1 świnia = 2 owce\r\n\r\n1 krowa = 3 świnie\r\n\r\n1 koń = 2 krowy\r\n\r\n1 mały pies = 1 owca\r\n\r\n1 duży pies = 1 krowa\r\n";
+            TradeInfoLabel.Location = new Point(337, 245);
+            TradeInfoLabel.Name = "TradeInfoLabel";
+            TradeInfoLabel.Size = new Size(192, 177);
+            TradeInfoLabel.TabIndex = 14;
+            TradeInfoLabel.Text = "1 owca = 6 królików\r\n\r\n1 świnia = 2 owce\r\n\r\n1 krowa = 3 świnie\r\n\r\n1 koń = 2 krowy\r\n\r\n1 mały pies = 1 owca\r\n\r\n1 duży pies = 1 krowa\r\n";
             // 
-            // button2
+            // a1button
             // 
-            button2.Location = new Point(256, 245);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 15;
-            button2.Text = "Wymień";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            a1button.Location = new Point(256, 245);
+            a1button.Name = "a1button";
+            a1button.Size = new Size(75, 23);
+            a1button.TabIndex = 15;
+            a1button.Text = "Wymień";
+            a1button.UseVisualStyleBackColor = true;
+            a1button.Click += Trade1aClick;
             // 
-            // button3
+            // b1button
             // 
-            button3.Location = new Point(454, 245);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 16;
-            button3.Text = "Wymień";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            b1button.Location = new Point(454, 245);
+            b1button.Name = "b1button";
+            b1button.Size = new Size(75, 23);
+            b1button.TabIndex = 16;
+            b1button.Text = "Wymień";
+            b1button.UseVisualStyleBackColor = true;
+            b1button.Click += Trade1bClick;
             // 
-            // button4
+            // a2button
             // 
-            button4.Location = new Point(256, 274);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 17;
-            button4.Text = "Wymień";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            a2button.Location = new Point(256, 274);
+            a2button.Name = "a2button";
+            a2button.Size = new Size(75, 23);
+            a2button.TabIndex = 17;
+            a2button.Text = "Wymień";
+            a2button.UseVisualStyleBackColor = true;
+            a2button.Click += Trade2aClick;
             // 
-            // button5
+            // b2button
             // 
-            button5.Location = new Point(454, 274);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 18;
-            button5.Text = "Wymień";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            b2button.Location = new Point(454, 274);
+            b2button.Name = "b2button";
+            b2button.Size = new Size(75, 23);
+            b2button.TabIndex = 18;
+            b2button.Text = "Wymień";
+            b2button.UseVisualStyleBackColor = true;
+            b2button.Click += Trade2bClick;
             // 
-            // button6
+            // a3button
             // 
-            button6.Location = new Point(256, 303);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 23);
-            button6.TabIndex = 19;
-            button6.Text = "Wymień";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            a3button.Location = new Point(256, 303);
+            a3button.Name = "a3button";
+            a3button.Size = new Size(75, 23);
+            a3button.TabIndex = 19;
+            a3button.Text = "Wymień";
+            a3button.UseVisualStyleBackColor = true;
+            a3button.Click += Trade3aClick;
             // 
-            // button7
+            // b3button
             // 
-            button7.Location = new Point(454, 303);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 23);
-            button7.TabIndex = 20;
-            button7.Text = "Wymień";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
+            b3button.Location = new Point(454, 303);
+            b3button.Name = "b3button";
+            b3button.Size = new Size(75, 23);
+            b3button.TabIndex = 20;
+            b3button.Text = "Wymień";
+            b3button.UseVisualStyleBackColor = true;
+            b3button.Click += Trade3bClick;
             // 
-            // button8
+            // a4button
             // 
-            button8.Location = new Point(256, 332);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 23);
-            button8.TabIndex = 21;
-            button8.Text = "Wymień";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
+            a4button.Location = new Point(256, 332);
+            a4button.Name = "a4button";
+            a4button.Size = new Size(75, 23);
+            a4button.TabIndex = 21;
+            a4button.Text = "Wymień";
+            a4button.UseVisualStyleBackColor = true;
+            a4button.Click += Trade4aClick;
             // 
-            // button9
+            // b4button
             // 
-            button9.Location = new Point(454, 332);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 23);
-            button9.TabIndex = 22;
-            button9.Text = "Wymień";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
+            b4button.Location = new Point(454, 332);
+            b4button.Name = "b4button";
+            b4button.Size = new Size(75, 23);
+            b4button.TabIndex = 22;
+            b4button.Text = "Wymień";
+            b4button.UseVisualStyleBackColor = true;
+            b4button.Click += Trade4bClick;
             // 
-            // button10
+            // a5button
             // 
-            button10.Location = new Point(256, 361);
-            button10.Name = "button10";
-            button10.Size = new Size(75, 23);
-            button10.TabIndex = 23;
-            button10.Text = "Wymień";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
+            a5button.Location = new Point(256, 361);
+            a5button.Name = "a5button";
+            a5button.Size = new Size(75, 23);
+            a5button.TabIndex = 23;
+            a5button.Text = "Wymień";
+            a5button.UseVisualStyleBackColor = true;
+            a5button.Click += Trade5aClick;
             // 
-            // button11
+            // b5button
             // 
-            button11.Location = new Point(454, 361);
-            button11.Name = "button11";
-            button11.Size = new Size(75, 23);
-            button11.TabIndex = 24;
-            button11.Text = "Wymień";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            b5button.Location = new Point(454, 361);
+            b5button.Name = "b5button";
+            b5button.Size = new Size(75, 23);
+            b5button.TabIndex = 24;
+            b5button.Text = "Wymień";
+            b5button.UseVisualStyleBackColor = true;
+            b5button.Click += Trade5bClick;
             // 
-            // button12
+            // a6button
             // 
-            button12.Location = new Point(256, 390);
-            button12.Name = "button12";
-            button12.Size = new Size(75, 23);
-            button12.TabIndex = 25;
-            button12.Text = "Wymień";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
+            a6button.Location = new Point(256, 390);
+            a6button.Name = "a6button";
+            a6button.Size = new Size(75, 23);
+            a6button.TabIndex = 25;
+            a6button.Text = "Wymień";
+            a6button.UseVisualStyleBackColor = true;
+            a6button.Click += Trade6aClick;
             // 
-            // button13
+            // b6button
             // 
-            button13.Location = new Point(454, 390);
-            button13.Name = "button13";
-            button13.Size = new Size(75, 23);
-            button13.TabIndex = 26;
-            button13.Text = "Wymień";
-            button13.UseVisualStyleBackColor = true;
-            button13.Click += button13_Click;
+            b6button.Location = new Point(454, 390);
+            b6button.Name = "b6button";
+            b6button.Size = new Size(75, 23);
+            b6button.TabIndex = 26;
+            b6button.Text = "Wymień";
+            b6button.UseVisualStyleBackColor = true;
+            b6button.Click += Trade6bClick;
             // 
-            // panel1
+            // Player3Panel
             // 
-            panel1.Controls.Add(label34);
-            panel1.Controls.Add(label33);
-            panel1.Controls.Add(label17);
-            panel1.Controls.Add(label18);
-            panel1.Controls.Add(label22);
-            panel1.Controls.Add(label19);
-            panel1.Controls.Add(label21);
-            panel1.Controls.Add(label20);
-            panel1.Location = new Point(12, 248);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(207, 165);
-            panel1.TabIndex = 27;
+            Player3Panel.Controls.Add(Player3BigDogLabel);
+            Player3Panel.Controls.Add(Player3SmallDogLabel);
+            Player3Panel.Controls.Add(label17);
+            Player3Panel.Controls.Add(Player3CowLabel);
+            Player3Panel.Controls.Add(Player3SheepLabel);
+            Player3Panel.Controls.Add(Player3RabbitLabel);
+            Player3Panel.Controls.Add(Player3PigLabel);
+            Player3Panel.Controls.Add(Player3HorseLabel);
+            Player3Panel.Location = new Point(12, 248);
+            Player3Panel.Name = "Player3Panel";
+            Player3Panel.Size = new Size(207, 165);
+            Player3Panel.TabIndex = 27;
             // 
-            // label34
+            // Player3BigDogLabel
             // 
-            label34.AutoSize = true;
-            label34.Location = new Point(28, 107);
-            label34.Name = "label34";
-            label34.Size = new Size(44, 15);
-            label34.TabIndex = 37;
-            label34.Text = "label34";
+            Player3BigDogLabel.AutoSize = true;
+            Player3BigDogLabel.Location = new Point(28, 118);
+            Player3BigDogLabel.Name = "Player3BigDogLabel";
+            Player3BigDogLabel.Size = new Size(44, 15);
+            Player3BigDogLabel.TabIndex = 37;
+            Player3BigDogLabel.Text = "label34";
             // 
-            // label33
+            // Player3SmallDogLabel
             // 
-            label33.AutoSize = true;
-            label33.Location = new Point(28, 92);
-            label33.Name = "label33";
-            label33.Size = new Size(44, 15);
-            label33.TabIndex = 35;
-            label33.Text = "label33";
+            Player3SmallDogLabel.AutoSize = true;
+            Player3SmallDogLabel.Location = new Point(28, 103);
+            Player3SmallDogLabel.Name = "Player3SmallDogLabel";
+            Player3SmallDogLabel.Size = new Size(44, 15);
+            Player3SmallDogLabel.TabIndex = 35;
+            Player3SmallDogLabel.Text = "label33";
             // 
             // label17
             // 
@@ -383,83 +384,83 @@
             label17.TabIndex = 36;
             label17.Text = "Gracz3";
             // 
-            // label18
+            // Player3CowLabel
             // 
-            label18.AutoSize = true;
-            label18.Location = new Point(28, 75);
-            label18.Name = "label18";
-            label18.Size = new Size(44, 15);
-            label18.TabIndex = 35;
-            label18.Text = "label18";
+            Player3CowLabel.AutoSize = true;
+            Player3CowLabel.Location = new Point(28, 86);
+            Player3CowLabel.Name = "Player3CowLabel";
+            Player3CowLabel.Size = new Size(44, 15);
+            Player3CowLabel.TabIndex = 35;
+            Player3CowLabel.Text = "label18";
             // 
-            // label22
+            // Player3SheepLabel
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(28, 15);
-            label22.Name = "label22";
-            label22.Size = new Size(44, 15);
-            label22.TabIndex = 31;
-            label22.Text = "label22";
+            Player3SheepLabel.AutoSize = true;
+            Player3SheepLabel.Location = new Point(28, 26);
+            Player3SheepLabel.Name = "Player3SheepLabel";
+            Player3SheepLabel.Size = new Size(44, 15);
+            Player3SheepLabel.TabIndex = 31;
+            Player3SheepLabel.Text = "label22";
             // 
-            // label19
+            // Player3RabbitLabel
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(28, 60);
-            label19.Name = "label19";
-            label19.Size = new Size(44, 15);
-            label19.TabIndex = 34;
-            label19.Text = "label19";
+            Player3RabbitLabel.AutoSize = true;
+            Player3RabbitLabel.Location = new Point(28, 71);
+            Player3RabbitLabel.Name = "Player3RabbitLabel";
+            Player3RabbitLabel.Size = new Size(44, 15);
+            Player3RabbitLabel.TabIndex = 34;
+            Player3RabbitLabel.Text = "label19";
             // 
-            // label21
+            // Player3PigLabel
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(28, 30);
-            label21.Name = "label21";
-            label21.Size = new Size(44, 15);
-            label21.TabIndex = 32;
-            label21.Text = "label21";
+            Player3PigLabel.AutoSize = true;
+            Player3PigLabel.Location = new Point(28, 41);
+            Player3PigLabel.Name = "Player3PigLabel";
+            Player3PigLabel.Size = new Size(44, 15);
+            Player3PigLabel.TabIndex = 32;
+            Player3PigLabel.Text = "label21";
             // 
-            // label20
+            // Player3HorseLabel
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(28, 45);
-            label20.Name = "label20";
-            label20.Size = new Size(44, 15);
-            label20.TabIndex = 33;
-            label20.Text = "label20";
+            Player3HorseLabel.AutoSize = true;
+            Player3HorseLabel.Location = new Point(28, 56);
+            Player3HorseLabel.Name = "Player3HorseLabel";
+            Player3HorseLabel.Size = new Size(44, 15);
+            Player3HorseLabel.TabIndex = 33;
+            Player3HorseLabel.Text = "label20";
             // 
-            // panel2
+            // Player4Panel
             // 
-            panel2.Controls.Add(label36);
-            panel2.Controls.Add(label35);
-            panel2.Controls.Add(label23);
-            panel2.Controls.Add(label24);
-            panel2.Controls.Add(label28);
-            panel2.Controls.Add(label25);
-            panel2.Controls.Add(label27);
-            panel2.Controls.Add(label26);
-            panel2.Location = new Point(565, 245);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(214, 168);
-            panel2.TabIndex = 28;
+            Player4Panel.Controls.Add(Player4BigDogLabel);
+            Player4Panel.Controls.Add(Player4SmallDogLabel);
+            Player4Panel.Controls.Add(label23);
+            Player4Panel.Controls.Add(Player4CowLabel);
+            Player4Panel.Controls.Add(Player4SheepLabel);
+            Player4Panel.Controls.Add(Player4RabbitLabel);
+            Player4Panel.Controls.Add(Player4PigLabel);
+            Player4Panel.Controls.Add(Player4HorseLabel);
+            Player4Panel.Location = new Point(565, 245);
+            Player4Panel.Name = "Player4Panel";
+            Player4Panel.Size = new Size(214, 168);
+            Player4Panel.TabIndex = 28;
             // 
-            // label36
+            // Player4BigDogLabel
             // 
-            label36.AutoSize = true;
-            label36.Location = new Point(115, 110);
-            label36.Name = "label36";
-            label36.Size = new Size(44, 15);
-            label36.TabIndex = 39;
-            label36.Text = "label36";
+            Player4BigDogLabel.AutoSize = true;
+            Player4BigDogLabel.Location = new Point(115, 121);
+            Player4BigDogLabel.Name = "Player4BigDogLabel";
+            Player4BigDogLabel.Size = new Size(44, 15);
+            Player4BigDogLabel.TabIndex = 39;
+            Player4BigDogLabel.Text = "label36";
             // 
-            // label35
+            // Player4SmallDogLabel
             // 
-            label35.AutoSize = true;
-            label35.Location = new Point(115, 95);
-            label35.Name = "label35";
-            label35.Size = new Size(44, 15);
-            label35.TabIndex = 38;
-            label35.Text = "label35";
+            Player4SmallDogLabel.AutoSize = true;
+            Player4SmallDogLabel.Location = new Point(115, 106);
+            Player4SmallDogLabel.Name = "Player4SmallDogLabel";
+            Player4SmallDogLabel.Size = new Size(44, 15);
+            Player4SmallDogLabel.TabIndex = 38;
+            Player4SmallDogLabel.Text = "label35";
             // 
             // label23
             // 
@@ -470,120 +471,120 @@
             label23.TabIndex = 36;
             label23.Text = "Gracz4";
             // 
-            // label24
+            // Player4CowLabel
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(115, 78);
-            label24.Name = "label24";
-            label24.Size = new Size(44, 15);
-            label24.TabIndex = 35;
-            label24.Text = "label24";
+            Player4CowLabel.AutoSize = true;
+            Player4CowLabel.Location = new Point(115, 89);
+            Player4CowLabel.Name = "Player4CowLabel";
+            Player4CowLabel.Size = new Size(44, 15);
+            Player4CowLabel.TabIndex = 35;
+            Player4CowLabel.Text = "label24";
             // 
-            // label28
+            // Player4SheepLabel
             // 
-            label28.AutoSize = true;
-            label28.Location = new Point(115, 18);
-            label28.Name = "label28";
-            label28.Size = new Size(44, 15);
-            label28.TabIndex = 31;
-            label28.Text = "label28";
+            Player4SheepLabel.AutoSize = true;
+            Player4SheepLabel.Location = new Point(115, 29);
+            Player4SheepLabel.Name = "Player4SheepLabel";
+            Player4SheepLabel.Size = new Size(44, 15);
+            Player4SheepLabel.TabIndex = 31;
+            Player4SheepLabel.Text = "label28";
             // 
-            // label25
+            // Player4RabbitLabel
             // 
-            label25.AutoSize = true;
-            label25.Location = new Point(117, 63);
-            label25.Name = "label25";
-            label25.Size = new Size(44, 15);
-            label25.TabIndex = 34;
-            label25.Text = "label25";
+            Player4RabbitLabel.AutoSize = true;
+            Player4RabbitLabel.Location = new Point(115, 74);
+            Player4RabbitLabel.Name = "Player4RabbitLabel";
+            Player4RabbitLabel.Size = new Size(44, 15);
+            Player4RabbitLabel.TabIndex = 34;
+            Player4RabbitLabel.Text = "label25";
             // 
-            // label27
+            // Player4PigLabel
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(115, 33);
-            label27.Name = "label27";
-            label27.Size = new Size(44, 15);
-            label27.TabIndex = 32;
-            label27.Text = "label27";
+            Player4PigLabel.AutoSize = true;
+            Player4PigLabel.Location = new Point(115, 44);
+            Player4PigLabel.Name = "Player4PigLabel";
+            Player4PigLabel.Size = new Size(44, 15);
+            Player4PigLabel.TabIndex = 32;
+            Player4PigLabel.Text = "label27";
             // 
-            // label26
+            // Player4HorseLabel
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(115, 48);
-            label26.Name = "label26";
-            label26.Size = new Size(44, 15);
-            label26.TabIndex = 33;
-            label26.Text = "label26";
+            Player4HorseLabel.AutoSize = true;
+            Player4HorseLabel.Location = new Point(115, 59);
+            Player4HorseLabel.Name = "Player4HorseLabel";
+            Player4HorseLabel.Size = new Size(44, 15);
+            Player4HorseLabel.TabIndex = 33;
+            Player4HorseLabel.Text = "label26";
             // 
-            // label15
+            // Player1NameLabel
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(40, 9);
-            label15.Name = "label15";
-            label15.Size = new Size(42, 15);
-            label15.TabIndex = 29;
-            label15.Text = "Gracz1";
+            Player1NameLabel.AutoSize = true;
+            Player1NameLabel.Location = new Point(40, 9);
+            Player1NameLabel.Name = "Player1NameLabel";
+            Player1NameLabel.Size = new Size(42, 15);
+            Player1NameLabel.TabIndex = 29;
+            Player1NameLabel.Text = "Gracz1";
             // 
-            // label16
+            // Player2NameLabel
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(680, 9);
-            label16.Name = "label16";
-            label16.Size = new Size(42, 15);
-            label16.TabIndex = 30;
-            label16.Text = "Gracz2";
+            Player2NameLabel.AutoSize = true;
+            Player2NameLabel.Location = new Point(680, 9);
+            Player2NameLabel.Name = "Player2NameLabel";
+            Player2NameLabel.Size = new Size(42, 15);
+            Player2NameLabel.TabIndex = 30;
+            Player2NameLabel.Text = "Gracz2";
             // 
-            // label29
+            // Player1SmallDogLabel
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(40, 108);
-            label29.Name = "label29";
-            label29.Size = new Size(44, 15);
-            label29.TabIndex = 31;
-            label29.Text = "label29";
+            Player1SmallDogLabel.AutoSize = true;
+            Player1SmallDogLabel.Location = new Point(40, 108);
+            Player1SmallDogLabel.Name = "Player1SmallDogLabel";
+            Player1SmallDogLabel.Size = new Size(44, 15);
+            Player1SmallDogLabel.TabIndex = 31;
+            Player1SmallDogLabel.Text = "label29";
             // 
-            // label30
+            // Player1BigDogLabel
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(40, 123);
-            label30.Name = "label30";
-            label30.Size = new Size(44, 15);
-            label30.TabIndex = 32;
-            label30.Text = "label30";
+            Player1BigDogLabel.AutoSize = true;
+            Player1BigDogLabel.Location = new Point(40, 123);
+            Player1BigDogLabel.Name = "Player1BigDogLabel";
+            Player1BigDogLabel.Size = new Size(44, 15);
+            Player1BigDogLabel.TabIndex = 32;
+            Player1BigDogLabel.Text = "label30";
             // 
-            // label31
+            // Player2SmallDogLabel
             // 
-            label31.AutoSize = true;
-            label31.Location = new Point(682, 108);
-            label31.Name = "label31";
-            label31.Size = new Size(44, 15);
-            label31.TabIndex = 33;
-            label31.Text = "label31";
+            Player2SmallDogLabel.AutoSize = true;
+            Player2SmallDogLabel.Location = new Point(682, 108);
+            Player2SmallDogLabel.Name = "Player2SmallDogLabel";
+            Player2SmallDogLabel.Size = new Size(44, 15);
+            Player2SmallDogLabel.TabIndex = 33;
+            Player2SmallDogLabel.Text = "label31";
             // 
-            // label32
+            // Player2BigDogLabel
             // 
-            label32.AutoSize = true;
-            label32.Location = new Point(682, 123);
-            label32.Name = "label32";
-            label32.Size = new Size(44, 15);
-            label32.TabIndex = 34;
-            label32.Text = "label32";
+            Player2BigDogLabel.AutoSize = true;
+            Player2BigDogLabel.Location = new Point(682, 123);
+            Player2BigDogLabel.Name = "Player2BigDogLabel";
+            Player2BigDogLabel.Size = new Size(44, 15);
+            Player2BigDogLabel.TabIndex = 34;
+            Player2BigDogLabel.Text = "label32";
             // 
-            // label37
+            // Dice1InfoLabel
             // 
-            label37.Location = new Point(256, 48);
-            label37.Name = "label37";
-            label37.Size = new Size(68, 90);
-            label37.TabIndex = 35;
-            label37.Text = "1-6: królik\r\n7-9: owca\r\n10: świnia\r\n11: krowa\r\n12: wilk\r\n\r\n";
+            Dice1InfoLabel.Location = new Point(256, 48);
+            Dice1InfoLabel.Name = "Dice1InfoLabel";
+            Dice1InfoLabel.Size = new Size(68, 90);
+            Dice1InfoLabel.TabIndex = 35;
+            Dice1InfoLabel.Text = "1-6: królik\r\n7-9: owca\r\n10: świnia\r\n11: krowa\r\n12: wilk\r\n\r\n";
             // 
-            // label38
+            // Dice2InfoLabel
             // 
-            label38.Location = new Point(461, 48);
-            label38.Name = "label38";
-            label38.Size = new Size(147, 75);
-            label38.TabIndex = 36;
-            label38.Text = "1-8: owca\r\n9-10: świnia\r\n11: koń\r\n12: lis\r\n\r\n";
+            Dice2InfoLabel.Location = new Point(461, 48);
+            Dice2InfoLabel.Name = "Dice2InfoLabel";
+            Dice2InfoLabel.Size = new Size(147, 75);
+            Dice2InfoLabel.TabIndex = 36;
+            Dice2InfoLabel.Text = "1-8: owca\r\n9-10: świnia\r\n11: koń\r\n12: lis\r\n\r\n";
             // 
             // label39
             // 
@@ -599,108 +600,109 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label39);
-            Controls.Add(label38);
-            Controls.Add(label37);
-            Controls.Add(label32);
-            Controls.Add(label31);
-            Controls.Add(label30);
-            Controls.Add(label29);
-            Controls.Add(label16);
-            Controls.Add(label15);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
-            Controls.Add(button13);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(label14);
-            Controls.Add(label13);
-            Controls.Add(label8);
-            Controls.Add(label9);
-            Controls.Add(label10);
-            Controls.Add(label11);
-            Controls.Add(label12);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(button1);
+            Controls.Add(Dice2InfoLabel);
+            Controls.Add(Dice1InfoLabel);
+            Controls.Add(Player2BigDogLabel);
+            Controls.Add(Player2SmallDogLabel);
+            Controls.Add(Player1BigDogLabel);
+            Controls.Add(Player1SmallDogLabel);
+            Controls.Add(Player2NameLabel);
+            Controls.Add(Player1NameLabel);
+            Controls.Add(Player4Panel);
+            Controls.Add(Player3Panel);
+            Controls.Add(b6button);
+            Controls.Add(a6button);
+            Controls.Add(b5button);
+            Controls.Add(a5button);
+            Controls.Add(b4button);
+            Controls.Add(a4button);
+            Controls.Add(b3button);
+            Controls.Add(a3button);
+            Controls.Add(b2button);
+            Controls.Add(a2button);
+            Controls.Add(b1button);
+            Controls.Add(a1button);
+            Controls.Add(TradeInfoLabel);
+            Controls.Add(CurrentPlayerLabel);
+            Controls.Add(Player2CowLabel);
+            Controls.Add(Player2RabbitLabel);
+            Controls.Add(Player2HorseLabel);
+            Controls.Add(Player2PigLabel);
+            Controls.Add(Player2SheepLabel);
+            Controls.Add(Player1CowLabel);
+            Controls.Add(Dice2Label);
+            Controls.Add(Dice1Label);
+            Controls.Add(Player1RabbitLabel);
+            Controls.Add(Player1HorseLabel);
+            Controls.Add(Player1PigLabel);
+            Controls.Add(Player1SheepLabel);
+            Controls.Add(RollTheDiceButton);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainGame";
-            Text = "Form1";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            Text = "SuperFarmer";
+            Player3Panel.ResumeLayout(false);
+            Player3Panel.PerformLayout();
+            Player4Panel.ResumeLayout(false);
+            Player4Panel.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Panel panel1;
-        private Panel panel2;
-        private Label label15;
-        private Label label16;
+        private Button RollTheDiceButton;
+        private Label Player1SheepLabel;
+        private Label Player1PigLabel;
+        private Label Player1HorseLabel;
+        private Label Player1RabbitLabel;
+        private Label Dice1Label;
+        private Label Dice2Label;
+        private Label Player1CowLabel;
+        private Label Player2CowLabel;
+        private Label Player2RabbitLabel;
+        private Label Player2HorseLabel;
+        private Label Player2PigLabel;
+        private Label Player2SheepLabel;
+        private Label CurrentPlayerLabel;
+        private Label TradeInfoLabel;
+        private Button a1button;
+        private Button b1button;
+        private Button a2button;
+        private Button b2button;
+        private Button a3button;
+        private Button b3button;
+        private Button a4button;
+        private Button b4button;
+        private Button a5button;
+        private Button b5button;
+        private Button a6button;
+        private Button b6button;
+        private Panel Player3Panel;
+        private Panel Player4Panel;
+        private Label Player1NameLabel;
+        private Label Player2NameLabel;
         private Label label17;
-        private Label label18;
-        private Label label22;
-        private Label label19;
-        private Label label21;
-        private Label label20;
+        private Label Player3CowLabel;
+        private Label Player3SheepLabel;
+        private Label Player3RabbitLabel;
+        private Label Player3PigLabel;
+        private Label Player3HorseLabel;
         private Label label23;
-        private Label label24;
-        private Label label25;
-        private Label label26;
-        private Label label27;
-        private Label label28;
-        private Label label34;
-        private Label label33;
-        private Label label36;
-        private Label label35;
-        private Label label29;
-        private Label label30;
-        private Label label31;
-        private Label label32;
-        private Label label37;
-        private Label label38;
+        private Label Player4CowLabel;
+        private Label Player4RabbitLabel;
+        private Label Player4HorseLabel;
+        private Label Player4PigLabel;
+        private Label Player4SheepLabel;
+        private Label Player3BigDogLabel;
+        private Label Player3SmallDogLabel;
+        private Label Player4BigDogLabel;
+        private Label Player4SmallDogLabel;
+        private Label Player1SmallDogLabel;
+        private Label Player1BigDogLabel;
+        private Label Player2SmallDogLabel;
+        private Label Player2BigDogLabel;
+        private Label Dice1InfoLabel;
+        private Label Dice2InfoLabel;
         private Label label39;
     }
 }

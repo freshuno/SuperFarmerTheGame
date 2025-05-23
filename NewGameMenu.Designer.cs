@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewGameMenu));
             label1 = new Label();
             comboBox1 = new ComboBox();
             button1 = new Button();
@@ -71,6 +72,7 @@
             Controls.Add(button1);
             Controls.Add(comboBox1);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "NewGameMenu";
             Text = "NewGameMenu";
             ResumeLayout(false);
