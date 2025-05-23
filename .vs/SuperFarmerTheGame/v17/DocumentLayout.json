@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "E:\\C#projects\\SuperFarmerTheGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|E:\\C#projects\\SuperFarmerTheGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\newgamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:newgamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\newgamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:newgamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\maingame.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:maingame.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\classes\\thegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:classes\\thegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|e:\\c#projects\\superfarmerthegame\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3E0695-EAFC-41A1-B00F-D2A66295A6FD}|SuperFarmerTheGame.csproj|solutionrelative:classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainGame.cs",
+              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\MainGame.cs",
+              "RelativeDocumentMoniker": "MainGame.cs",
+              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\MainGame.cs",
+              "RelativeToolTip": "MainGame.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:10:38.99Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainGame.Designer.cs",
+              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\MainGame.Designer.cs",
+              "RelativeDocumentMoniker": "MainGame.Designer.cs",
+              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\MainGame.Designer.cs",
+              "RelativeToolTip": "MainGame.Designer.cs",
+              "ViewState": "AgIAADwCAAAAAAAAAAAqwFICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:38:52.38Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -42,13 +81,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "NewGameMenu.cs",
+              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\NewGameMenu.cs",
+              "RelativeDocumentMoniker": "NewGameMenu.cs",
+              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\NewGameMenu.cs",
+              "RelativeToolTip": "NewGameMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:59:16.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewGameMenu.cs [Projekt]",
+              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\NewGameMenu.cs",
+              "RelativeDocumentMoniker": "NewGameMenu.cs",
+              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\NewGameMenu.cs [Projekt]",
+              "RelativeToolTip": "NewGameMenu.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:43:13.431Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T10:13:48.508Z",
               "EditorCaption": ""
@@ -56,50 +120,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowBcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:10:38.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\Form1.cs [Projekt]",
-              "RelativeToolTip": "Form1.cs [Projekt]",
+              "Title": "MainGame.cs [Projekt]",
+              "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\MainGame.cs",
+              "RelativeDocumentMoniker": "MainGame.cs",
+              "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\MainGame.cs [Projekt]",
+              "RelativeToolTip": "MainGame.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T09:56:12.846Z",
               "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TheGame.cs",
               "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\Classes\\TheGame.cs",
               "RelativeDocumentMoniker": "Classes\\TheGame.cs",
               "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\Classes\\TheGame.cs",
               "RelativeToolTip": "Classes\\TheGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T10:11:01.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\C#projects\\SuperFarmerTheGame\\Classes\\Player.cs",
               "RelativeDocumentMoniker": "Classes\\Player.cs",
               "ToolTip": "E:\\C#projects\\SuperFarmerTheGame\\Classes\\Player.cs",
               "RelativeToolTip": "Classes\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T10:06:58.695Z",
               "EditorCaption": ""

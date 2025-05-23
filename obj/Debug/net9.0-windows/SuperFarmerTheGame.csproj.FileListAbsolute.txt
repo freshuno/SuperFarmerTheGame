@@ -3,7 +3,6 @@ E:\C#projects\SuperFarmerTheGame\bin\Debug\net9.0-windows\SuperFarmerTheGame.dep
 E:\C#projects\SuperFarmerTheGame\bin\Debug\net9.0-windows\SuperFarmerTheGame.runtimeconfig.json
 E:\C#projects\SuperFarmerTheGame\bin\Debug\net9.0-windows\SuperFarmerTheGame.dll
 E:\C#projects\SuperFarmerTheGame\bin\Debug\net9.0-windows\SuperFarmerTheGame.pdb
-E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.Form1.resources
 E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.csproj.GenerateResource.cache
 E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.GeneratedMSBuildEditorConfig.editorconfig
 E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.AssemblyInfoInputs.cache
@@ -15,3 +14,5 @@ E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\refint\SuperFarmerTheG
 E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.pdb
 E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.genruntimeconfig.cache
 E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\ref\SuperFarmerTheGame.dll
+E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.MainGame.resources
+E:\C#projects\SuperFarmerTheGame\obj\Debug\net9.0-windows\SuperFarmerTheGame.NewGameMenu.resources

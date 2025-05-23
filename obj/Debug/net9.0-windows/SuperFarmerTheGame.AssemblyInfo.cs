@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuperFarmerTheGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5376e2d5ff96e4f23747e12da7093b5ca28a3cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66778b19cbdb0d2028cf072dd394b33570ec79a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuperFarmerTheGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuperFarmerTheGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

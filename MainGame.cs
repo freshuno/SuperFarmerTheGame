@@ -2,18 +2,29 @@ using SuperFarmerTheGame.Classes;
 
 namespace SuperFarmerTheGame
 {
-    public partial class Form1 : Form
+    public partial class MainGame : Form
     {
         TheGame SuperFarmer;
-        Player Player1 = new Player("Player1");
-        Player Player2 = new Player("Player2");
-        Player Player3 = new Player("Player3");
-        Player Player4 = new Player("Player4");
+        Player Player1 = new Player("Gracz1");
+        Player Player2 = new Player("Gracz2");
+        Player Player3 = new Player("Gracz3");
+        Player Player4 = new Player("Gracz4");
         Player currentPlayer;
-        public Form1()
+        int playerNumber;
+        public MainGame(int PlayerNumber)
         {
             InitializeComponent();
-            SuperFarmer = new TheGame(Player1, Player2);
+            SuperFarmer = new TheGame(Player1, Player2, Player3, Player4);
+            if(PlayerNumber == 2)
+            {
+                panel1.Visible = false;
+                panel2.Visible = false;
+            }
+            if(PlayerNumber == 3)
+            {
+                panel2.Visible = false;
+            }
+            playerNumber = PlayerNumber;
             currentPlayer = Player1;
             numberUpdate();
         }
@@ -22,15 +33,7 @@ namespace SuperFarmerTheGame
         {
             SuperFarmer.rollTheDice(currentPlayer);
             checkWin(currentPlayer);
-            if (currentPlayer == Player1)
-            {
-                currentPlayer = Player2;
-            }
-            else if (currentPlayer == Player2)
-            {
-                currentPlayer = Player1;
-
-            }
+            PlayerChange();
             label13.Text = "Current player: " + currentPlayer;
             label5.Text = SuperFarmer.dice1.ToString();
             label6.Text = SuperFarmer.dice2.ToString();
@@ -38,17 +41,39 @@ namespace SuperFarmerTheGame
         }
         private void numberUpdate()
         {
-            label1.Text = "Sheep: " + Player1.sheepNumber.ToString();
-            label2.Text = "Pig: " + Player1.pigNumber.ToString();
-            label3.Text = "Horse: " + Player1.horseNumber.ToString();
-            label4.Text = "Rabbit " + Player1.rabbitNumber.ToString();
-            label7.Text = "Cow: " + Player1.cowNumber.ToString();
-            label12.Text = "Sheep: " + Player2.sheepNumber.ToString();
-            label11.Text = "Pig: " + Player2.pigNumber.ToString();
-            label10.Text = "Horse: " + Player2.horseNumber.ToString();
-            label9.Text = "Rabbit " + Player2.rabbitNumber.ToString();
-            label8.Text = "Cow: " + Player2.cowNumber.ToString();
-            label13.Text = "Current player: " + currentPlayer.name;
+            label1.Text = "Owca: " + Player1.sheepNumber.ToString();
+            label2.Text = "Œwinia: " + Player1.pigNumber.ToString();
+            label3.Text = "Koñ: " + Player1.horseNumber.ToString();
+            label4.Text = "Królik: " + Player1.rabbitNumber.ToString();
+            label7.Text = "Krowa: " + Player1.cowNumber.ToString();
+            label29.Text = "Ma³y pies: " + Player1.smallDogNumber.ToString();
+            label30.Text = "Du¿y pies: " + Player1.bigDogNumber.ToString();
+
+            label12.Text = "Owca: " + Player2.sheepNumber.ToString();
+            label11.Text = "Œwinia: " + Player2.pigNumber.ToString();
+            label10.Text = "Koñ: " + Player2.horseNumber.ToString();
+            label9.Text = "Królik: " + Player2.rabbitNumber.ToString();
+            label8.Text = "Krowa: " + Player2.cowNumber.ToString();
+            label31.Text = "Ma³y pies: " + Player2.smallDogNumber.ToString();
+            label32.Text = "Du¿y pies: " + Player2.bigDogNumber.ToString();
+
+            label22.Text = "Owca: " + Player3.sheepNumber.ToString();
+            label21.Text = "Œwinia: " + Player3.pigNumber.ToString();
+            label20.Text = "Koñ: " + Player3.horseNumber.ToString();
+            label19.Text = "Królik: " + Player3.rabbitNumber.ToString();
+            label18.Text = "Krowa: " + Player3.cowNumber.ToString();
+            label33.Text = "Ma³y pies: " + Player3.smallDogNumber.ToString();
+            label34.Text = "Du¿y pies: " + Player3.bigDogNumber.ToString();
+
+            label28.Text = "Owca: " + Player4.sheepNumber.ToString();
+            label27.Text = "Œwinia: " + Player4.pigNumber.ToString();
+            label26.Text = "Koñ: " + Player4.horseNumber.ToString();
+            label25.Text = "Królik: " + Player4.rabbitNumber.ToString();
+            label24.Text = "Krowa: " + Player4.cowNumber.ToString();
+            label35.Text = "Ma³y pies: " + Player4.smallDogNumber.ToString();
+            label36.Text = "Du¿y pies: " + Player4.bigDogNumber.ToString();
+
+            label13.Text = "Tura gracza: " + currentPlayer.name;
         }
         private void checkWin(Player CurrentPlayer)
         {
@@ -65,19 +90,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.sheepNumber--;
                 currentPlayer.rabbitNumber += 6;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle owiec";
+                label39.Text = "nie masz tyle owiec";
             }
         }
 
@@ -88,19 +106,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.rabbitNumber -= 6;
                 currentPlayer.sheepNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle królików";
+                label39.Text = "nie masz tyle królików";
             }
 
         }
@@ -112,19 +123,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.pigNumber--;
                 currentPlayer.sheepNumber += 2;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle œwiñ";
+                label39.Text = "nie masz tyle œwiñ";
             }
 
         }
@@ -136,19 +140,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.sheepNumber -= 2;
                 currentPlayer.pigNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle owiec";
+                label39.Text = "nie masz tyle owiec";
             }
 
         }
@@ -160,19 +157,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.cowNumber--;
                 currentPlayer.pigNumber += 3;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle krów";
+                label39.Text = "nie masz tyle krów";
             }
 
         }
@@ -184,19 +174,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.pigNumber -= 3;
                 currentPlayer.cowNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle œwiñ";
+                label39.Text = "nie masz tyle œwiñ";
             }
         }
 
@@ -207,19 +190,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.horseNumber--;
                 currentPlayer.cowNumber += 2;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle koni";
+                label39.Text = "nie masz tyle koni";
             }
         }
 
@@ -230,19 +206,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.cowNumber -= 2;
                 currentPlayer.horseNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle krów";
+                label39.Text = "nie masz tyle krów";
             }
         }
 
@@ -253,19 +222,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.smallDogNumber--;
                 currentPlayer.sheepNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle ma³ych psów";
+                label39.Text = "nie masz tyle ma³ych psów";
             }
         }
 
@@ -276,19 +238,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.sheepNumber--;
                 currentPlayer.smallDogNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle owiec";
+                label39.Text = "nie masz tyle owiec";
             }
         }
 
@@ -299,19 +254,12 @@ namespace SuperFarmerTheGame
                 currentPlayer.bigDogNumber--;
                 currentPlayer.cowNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle du¿ych psów";
+                label39.Text = "nie masz tyle du¿ych psów";
             }
         }
 
@@ -322,20 +270,42 @@ namespace SuperFarmerTheGame
                 currentPlayer.cowNumber--;
                 currentPlayer.bigDogNumber++;
                 checkWin(currentPlayer);
-                if (currentPlayer == Player1)
-                {
-                    currentPlayer = Player2;
-                }
-                else if (currentPlayer == Player2)
-                {
-                    currentPlayer = Player1;
-                }
+                PlayerChange();
                 numberUpdate();
             }
             else
             {
-                label5.Text = "nie masz tyle krów";
+                label39.Text = "nie masz tyle krów";
             }
+        }
+        private void PlayerChange()
+        {
+            label39.Text = "";
+            if (currentPlayer == Player1)
+            {
+                currentPlayer = Player2;
+            }
+            else if (currentPlayer == Player2 && playerNumber == 2)
+            {
+                currentPlayer = Player1;
+            }
+            else if (currentPlayer == Player2 && playerNumber > 2)
+            {
+                currentPlayer = Player3;
+            }
+            else if (currentPlayer == Player3 && playerNumber == 3)
+            {
+                currentPlayer = Player1;
+            }
+            else if (currentPlayer == Player3 && playerNumber == 4)
+            {
+                currentPlayer = Player4;
+            }
+            else if (currentPlayer == Player4)
+            {
+                currentPlayer = Player1;
+            }
+
         }
     }
 }

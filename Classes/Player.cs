@@ -16,10 +16,6 @@ namespace SuperFarmerTheGame.Classes
         public int bigDogNumber;
         public int smallDogNumber;
         public string name;
-        bool ifWin()
-        {
-            return true;
-        }
         public Player(string Name)
         {
             name = Name;

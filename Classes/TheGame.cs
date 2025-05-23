@@ -21,11 +21,6 @@ namespace SuperFarmerTheGame.Classes
             player3 = Player3;
             player4 = Player4;
         }
-        public TheGame(Player Player1, Player Player2)
-        {
-            player1 = Player1;
-            player2 = Player2;
-        }
         public void rollTheDice(Player CurrentPlayer)
         {
             Random rnd = new Random();
